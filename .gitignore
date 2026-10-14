@@ -1,0 +1,39 @@
+# .NET build and publish output
+**/[Bb]in/
+**/[Oo]bj/
+artifacts/
+publish/
+
+# Local IDE settings and caches
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Test results and coverage output
+**/TestResults/
+coverage/
+coverage-report/
+*.coverage
+*.coveragexml
+
+# Compiled packages and binaries (source-only submission)
+*.exe
+*.dll
+*.lib
+*.pdb
+*.msi
+*.nupkg
+*.snupkg
+
+# Local secrets and environment overrides
+.env
+.env.*
+!.env.example
+
+# Operating-system files and submission archives
+Thumbs.db
+.DS_Store
+*.zip
